@@ -89,6 +89,7 @@ rec {
   };
 
   time.timeZone = "Europe/Warsaw";
+
   nix.useSandbox = true;
 
   environment.systemPackages = with pkgs; [
